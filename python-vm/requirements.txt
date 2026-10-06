@@ -1,0 +1,6 @@
+# Lab 4
+python-qpid-proton>=0.39   # cliente AMQP 1.0 (el SDK azure-iot-device de Python no soporta AMQP)
+requests>=2.31             # tercer protocolo: HTTPS REST + DPS por HTTPS
+# Heredados del Lab 3 (baseline MQTT)
+azure-iot-device
+paho-mqtt

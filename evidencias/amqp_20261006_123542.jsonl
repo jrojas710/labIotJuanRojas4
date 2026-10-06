@@ -1,0 +1,23 @@
+{"ts": "2026-10-06T12:35:43.048598+00:00", "protocol": "amqp", "event": "connection_opened", "handshake_ms": 680.02}
+{"ts": "2026-10-06T12:35:43.050587+00:00", "protocol": "amqp", "event": "credit", "credit": 50}
+{"ts": "2026-10-06T12:35:43.259255+00:00", "protocol": "amqp", "event": "accepted", "n": 1, "payload_bytes": 58, "latency_ms": 208.36, "data": {"temperatura": 4.14, "humedad": 51.94, "nivel_bateria": 96.95}}
+{"ts": "2026-10-06T12:35:48.475067+00:00", "protocol": "amqp", "event": "accepted", "n": 2, "payload_bytes": 57, "latency_ms": 213.87, "data": {"temperatura": 3.99, "humedad": 52.01, "nivel_bateria": 96.9}}
+{"ts": "2026-10-06T12:35:53.682625+00:00", "protocol": "amqp", "event": "accepted", "n": 3, "payload_bytes": 58, "latency_ms": 206.84, "data": {"temperatura": 3.99, "humedad": 52.17, "nivel_bateria": 96.85}}
+{"ts": "2026-10-06T12:35:58.890758+00:00", "protocol": "amqp", "event": "accepted", "n": 4, "payload_bytes": 57, "latency_ms": 206.21, "data": {"temperatura": 4.08, "humedad": 52.27, "nivel_bateria": 96.8}}
+{"ts": "2026-10-06T12:36:04.098917+00:00", "protocol": "amqp", "event": "accepted", "n": 5, "payload_bytes": 58, "latency_ms": 206.22, "data": {"temperatura": 3.96, "humedad": 52.02, "nivel_bateria": 96.75}}
+{"ts": "2026-10-06T12:36:09.306715+00:00", "protocol": "amqp", "event": "accepted", "n": 6, "payload_bytes": 56, "latency_ms": 205.9, "data": {"temperatura": 4.1, "humedad": 51.89, "nivel_bateria": 96.7}}
+{"ts": "2026-10-06T12:36:14.515448+00:00", "protocol": "amqp", "event": "accepted", "n": 7, "payload_bytes": 58, "latency_ms": 206.8, "data": {"temperatura": 4.21, "humedad": 51.84, "nivel_bateria": 96.65}}
+{"ts": "2026-10-06T12:36:19.726160+00:00", "protocol": "amqp", "event": "accepted", "n": 8, "payload_bytes": 57, "latency_ms": 209.42, "data": {"temperatura": 4.32, "humedad": 51.55, "nivel_bateria": 96.6}}
+{"ts": "2026-10-06T12:36:24.934633+00:00", "protocol": "amqp", "event": "accepted", "n": 9, "payload_bytes": 58, "latency_ms": 206.56, "data": {"temperatura": 4.29, "humedad": 51.26, "nivel_bateria": 96.55}}
+{"ts": "2026-10-06T12:36:30.139640+00:00", "protocol": "amqp", "event": "accepted", "n": 10, "payload_bytes": 57, "latency_ms": 203.11, "data": {"temperatura": 4.26, "humedad": 51.41, "nivel_bateria": 96.5}}
+{"ts": "2026-10-06T12:36:35.349729+00:00", "protocol": "amqp", "event": "accepted", "n": 11, "payload_bytes": 58, "latency_ms": 208.21, "data": {"temperatura": 4.31, "humedad": 51.53, "nivel_bateria": 96.45}}
+{"ts": "2026-10-06T12:36:40.555960+00:00", "protocol": "amqp", "event": "accepted", "n": 12, "payload_bytes": 56, "latency_ms": 204.31, "data": {"temperatura": 4.4, "humedad": 51.26, "nivel_bateria": 96.4}}
+{"ts": "2026-10-06T12:36:45.762797+00:00", "protocol": "amqp", "event": "accepted", "n": 13, "payload_bytes": 58, "latency_ms": 205.32, "data": {"temperatura": 4.43, "humedad": 51.09, "nivel_bateria": 96.35}}
+{"ts": "2026-10-06T12:36:50.970485+00:00", "protocol": "amqp", "event": "accepted", "n": 14, "payload_bytes": 57, "latency_ms": 205.79, "data": {"temperatura": 4.48, "humedad": 51.26, "nivel_bateria": 96.3}}
+{"ts": "2026-10-06T12:36:56.181974+00:00", "protocol": "amqp", "event": "accepted", "n": 15, "payload_bytes": 58, "latency_ms": 209.62, "data": {"temperatura": 4.34, "humedad": 51.55, "nivel_bateria": 96.25}}
+{"ts": "2026-10-06T12:37:01.389862+00:00", "protocol": "amqp", "event": "accepted", "n": 16, "payload_bytes": 57, "latency_ms": 206.0, "data": {"temperatura": 4.48, "humedad": 51.36, "nivel_bateria": 96.2}}
+{"ts": "2026-10-06T12:37:06.598540+00:00", "protocol": "amqp", "event": "accepted", "n": 17, "payload_bytes": 58, "latency_ms": 206.88, "data": {"temperatura": 4.51, "humedad": 51.09, "nivel_bateria": 96.15}}
+{"ts": "2026-10-06T12:37:11.823632+00:00", "protocol": "amqp", "event": "accepted", "n": 18, "payload_bytes": 56, "latency_ms": 223.16, "data": {"temperatura": 4.51, "humedad": 51.0, "nivel_bateria": 96.1}}
+{"ts": "2026-10-06T12:37:17.029008+00:00", "protocol": "amqp", "event": "accepted", "n": 19, "payload_bytes": 58, "latency_ms": 203.47, "data": {"temperatura": 4.65, "humedad": 51.01, "nivel_bateria": 96.05}}
+{"ts": "2026-10-06T12:37:22.235276+00:00", "protocol": "amqp", "event": "accepted", "n": 20, "payload_bytes": 57, "latency_ms": 204.54, "data": {"temperatura": 4.53, "humedad": 50.72, "nivel_bateria": 96.0}}
+{"ts": "2026-10-06T12:37:22.347407+00:00", "protocol": "amqp", "event": "closed", "sent": 20, "confirmed": 20}

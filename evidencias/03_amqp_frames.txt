@@ -1,0 +1,24 @@
+[0x6091e73c2480]: SASL:FRAME:  -> SASL
+[0x6091e73c2480]: SASL:FRAME:  <- SASL
+[0x6091e73c2480]: AMQP:FRAME:0 <- @sasl-mechanisms(64) [sasl-server-mechanisms=@<symbol>[:PLAIN, :ANONYMOUS, :MSSBCBS, :EXTERNAL]]
+[0x6091e73c2480]: AMQP:FRAME:0 -> @sasl-init(65) [mechanism=:PLAIN, initial-response=b"\x00Vacuna-VM-Python@sas.iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49\x00SharedAccessSignature sr=iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49.azure-devices.net%2Fdevices%2FVacuna-VM-Python&sig=W0%2BeqkyD8hbOH01UOzyZ%2BU69rqANfQOekrTjBxStIVg%3D&se=1791293842"]
+[0x6091e73c2480]: AMQP:FRAME:0 <- @sasl-outcome(68) [code=0x0]
+[0x6091e73c2480]: AMQP:FRAME:  -> AMQP
+[0x6091e73c2480]: AMQP:FRAME:0 -> @open(16) [container-id="7c03511e-74be-4df1-80e3-7aa453cdc7d2", hostname="iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49.azure-devices.net", max-frame-size=0x8000, channel-max=0x7fff]
+[0x6091e73c2480]: AMQP:FRAME:0 -> @begin(17) [next-outgoing-id=0x0, incoming-window=0x7fffffff, outgoing-window=0x7fffffff, handle-max=0x7fffffff]
+[0x6091e73c2480]: AMQP:FRAME:0 -> @attach(18) [name="7c03511e-74be-4df1-80e3-7aa453cdc7d2-/devices/Vacuna-VM-Python/messages/events", handle=0x0, role=false, snd-settle-mode=0x2, rcv-settle-mode=0x0, source=@source(40) [durable=0x0, timeout=0x0, dynamic=false], target=@target(41) [address="/devices/Vacuna-VM-Python/messages/events", durable=0x0, timeout=0x0, dynamic=false], initial-delivery-count=0x0, max-message-size=0x0]
+[0x6091e73c2480]: AMQP:FRAME:  <- AMQP
+[0x6091e73c2480]: AMQP:FRAME:0 <- @open(16) [container-id="3cd8e73705554132a1859e1bd79e2bde", max-frame-size=0xffff, channel-max=0x400, idle-time-out=0x3a980]
+[0x6091e73c2480]: AMQP:FRAME:0 <- @begin(17) [remote-channel=0x0, next-outgoing-id=0x1, incoming-window=0x1388, outgoing-window=0x7fffffff, handle-max=0xffffffff]
+[0x6091e73c2480]: AMQP:FRAME:0 <- @attach(18) [name="7c03511e-74be-4df1-80e3-7aa453cdc7d2-/devices/Vacuna-VM-Python/messages/events", handle=0x0, role=true, snd-settle-mode=0x2, rcv-settle-mode=0x0, source=@source(40) [durable=0x0, expiry-policy=:session-end, timeout=0x0, dynamic=false], target=@target(41) [address="/devices/Vacuna-VM-Python/messages/events", durable=0x0, expiry-policy=:session-end, timeout=0x0, dynamic=false], incomplete-unsettled=false, initial-delivery-count=0x0, max-message-size=0x100000]
+[0x6091e73c2480]: AMQP:FRAME:0 <- @flow(19) [next-incoming-id=0x0, incoming-window=0x1388, next-outgoing-id=0x0, outgoing-window=0x7fffffff, handle=0x0, delivery-count=0x0, link-credit=0x32, drain=false, echo=false]
+[0x6091e73c2480]: AMQP:FRAME:0 -> @transfer(20) [handle=0x0, delivery-id=0x0, delivery-tag=b"1", message-format=0x0] (141) \x00SpE\x00Ss\xc0E\x08\xa1$007a38d1-fc5a-417c-86f1-1ee0bc2daaf6@@@@@\xa3\x10application/json\xa3\x05utf-8\x00Su\xa0:{\x22temperatura\x22:4.17,\x22humedad\x22:52.16,\x22nivel_bateria\x22:96.95}
+[0x6091e73c2480]: AMQP:FRAME:0 <- @disposition(21) [role=true, first=0x0, settled=true, state=@accepted(36) [], batchable=false]
+[0x6091e73c2480]: AMQP:FRAME:0 -> @transfer(20) [handle=0x0, delivery-id=0x1, delivery-tag=b"2", message-format=0x0] (140) \x00SpE\x00Ss\xc0E\x08\xa1$ccf3760c-3182-49be-a977-2bf852d02674@@@@@\xa3\x10application/json\xa3\x05utf-8\x00Su\xa09{\x22temperatura\x22:4.12,\x22humedad\x22:52.24,\x22nivel_bateria\x22:96.9}
+[0x6091e73c2480]: AMQP:FRAME:0 <- @disposition(21) [role=true, first=0x1, settled=true, state=@accepted(36) [], batchable=false]
+[0x6091e73c2480]: AMQP:FRAME:0 -> @transfer(20) [handle=0x0, delivery-id=0x2, delivery-tag=b"3", message-format=0x0] (141) \x00SpE\x00Ss\xc0E\x08\xa1$2df3126e-03f9-4c32-8731-fb971e97909b@@@@@\xa3\x10application/json\xa3\x05utf-8\x00Su\xa0:{\x22temperatura\x22:4.25,\x22humedad\x22:51.99,\x22nivel_bateria\x22:96.85}
+[0x6091e73c2480]: AMQP:FRAME:0 <- @disposition(21) [role=true, first=0x2, settled=true, state=@accepted(36) [], batchable=false]
+[0x6091e73c2480]: AMQP:FRAME:0 -> @close(24) []
+[0x6091e73c2480]: AMQP:FRAME:0 <- @close(24) []
+[0x6091e73c2480]:   IO:FRAME:  <- EOS
+[0x6091e73c2480]:   IO:FRAME:  -> EOS

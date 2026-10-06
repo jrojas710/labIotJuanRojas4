@@ -1,0 +1,113 @@
+===== RESULTADOS LAB 4 (pegar en el chat) =====
+Hub: iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49.azure-devices.net
+
+== AMQP ==
+  log             amqp_20261006_123235.jsonl
+  ok              20
+  fallos          0
+  payload_B       58
+  lat_mediana_ms  206.7
+  lat_p95_ms      211.2
+  lat_min_ms      202.7
+  lat_max_ms      213.2
+  handshake_ms    694.41
+
+== AMQP ==
+  log             amqp_20261006_123415.jsonl
+  ok              3
+  fallos          0
+  payload_B       58
+  lat_mediana_ms  210.1
+  lat_p95_ms      211.2
+  lat_min_ms      206.7
+  lat_max_ms      211.2
+  handshake_ms    717.22
+
+== AMQP ==
+  log             amqp_20261006_123542.jsonl
+  ok              20
+  fallos          0
+  payload_B       58
+  lat_mediana_ms  206.4
+  lat_p95_ms      213.9
+  lat_min_ms      203.1
+  lat_max_ms      223.2
+  handshake_ms    680.02
+
+== AMQP ==
+  log             amqp_20261006_123722.jsonl
+  ok              3
+  fallos          0
+  payload_B       58
+  lat_mediana_ms  202.0
+  lat_p95_ms      205.1
+  lat_min_ms      201.5
+  lat_max_ms      205.1
+  handshake_ms    659.73
+
+== HTTPS ==
+  log             https_20261006_123420.jsonl
+  ok              10
+  fallos          0
+  payload_B       58
+  lat_mediana_ms  207.4
+  lat_p95_ms      737.7
+  lat_min_ms      199.3
+  lat_max_ms      737.7
+  handshake_ms    None
+  http_headers_B  569
+
+== HTTPS ==
+  log             https_20261006_123728.jsonl
+  ok              20
+  fallos          0
+  payload_B       58
+  lat_mediana_ms  207.7
+  lat_p95_ms      213.8
+  lat_min_ms      193.7
+  lat_max_ms      621.3
+  handshake_ms    None
+  http_headers_B  569
+
+== HTTPS ==
+  log             https_20261006_123907.jsonl
+  ok              10
+  fallos          0
+  payload_B       58
+  lat_mediana_ms  622.2
+  lat_p95_ms      673.8
+  lat_min_ms      545.4
+  lat_max_ms      673.8
+  handshake_ms    None
+  http_headers_B  567
+
+--- Tramas AMQP (muestra) ---
+[0x6091e73c2480]: AMQP:FRAME:0 <- @flow(19) [next-incoming-id=0x0, incoming-window=0x1388, next-outgoing-id=0x0, outgoing-window=0x7fffffff, handle=0x0, delivery-count=0x0, link-credit=0x32, drain=false, echo=false]
+[0x6091e73c2480]: AMQP:FRAME:0 <- @disposition(21) [role=true, first=0x0, settled=true, state=@accepted(36) [], batchable=false]
+[0x6091e73c2480]: AMQP:FRAME:0 <- @disposition(21) [role=true, first=0x1, settled=true, state=@accepted(36) [], batchable=false]
+
+--- Primeras líneas AMQP ---
+================================================================
+[*] Cliente AMQP 1.0 (Qpid Proton) -> Azure IoT Central
+[*] Host          : iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49.azure-devices.net:5671 (amqps / TLS)
+[*] SASL          : PLAIN  user=Vacuna-VM-Python@sas.iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49
+[*] Link target   : /devices/Vacuna-VM-Python/messages/events
+[*] Mensajes      : 20 cada 5.0s
+================================================================
+[+] Conexión AMQP abierta (TCP+TLS+SASL+Open) en 680.0 ms
+[+] Link sender adjuntado: /devices/Vacuna-VM-Python/messages/events
+[+] Crédito concedido por el hub: 50 mensajes
+[Msg #01] {'temperatura': 4.14, 'humedad': 51.94, 'nivel_bateria': 96.95} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 208.36 ms
+[Msg #02] {'temperatura': 3.99, 'humedad': 52.01, 'nivel_bateria': 96.9} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 213.87 ms
+
+--- Primeras líneas HTTPS ---
+================================================================
+[*] Cliente HTTPS REST -> Azure IoT Central
+[*] Endpoint      : POST https://iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49.azure-devices.net/devices/Vacuna-VM-Python/messages/events
+[*] Puerto        : 443 (TLS)
+[*] Keep-alive    : sí (requests.Session)
+[*] Mensajes      : 20 cada 5.0s
+================================================================
+[Msg #01] {'temperatura': 4.25, 'humedad': 51.99, 'nivel_bateria': 96.95} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 621.32 ms
+[Msg #02] {'temperatura': 4.29, 'humedad': 51.97, 'nivel_bateria': 96.9} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.27 ms
+[Msg #03] {'temperatura': 4.36, 'humedad': 52.25, 'nivel_bateria': 96.85} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.99 ms

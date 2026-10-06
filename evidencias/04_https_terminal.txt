@@ -1,0 +1,28 @@
+================================================================
+[*] Cliente HTTPS REST -> Azure IoT Central
+[*] Endpoint      : POST https://iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49.azure-devices.net/devices/Vacuna-VM-Python/messages/events
+[*] Puerto        : 443 (TLS)
+[*] Keep-alive    : sí (requests.Session)
+[*] Mensajes      : 20 cada 5.0s
+================================================================
+[Msg #01] {'temperatura': 4.25, 'humedad': 51.99, 'nivel_bateria': 96.95} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 621.32 ms
+[Msg #02] {'temperatura': 4.29, 'humedad': 51.97, 'nivel_bateria': 96.9} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.27 ms
+[Msg #03] {'temperatura': 4.36, 'humedad': 52.25, 'nivel_bateria': 96.85} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.99 ms
+[Msg #04] {'temperatura': 4.51, 'humedad': 52.43, 'nivel_bateria': 96.8} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 200.21 ms
+[Msg #05] {'temperatura': 4.39, 'humedad': 52.33, 'nivel_bateria': 96.75} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 211.11 ms
+[Msg #06] {'temperatura': 4.47, 'humedad': 52.31, 'nivel_bateria': 96.7} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 205.27 ms
+[Msg #07] {'temperatura': 4.32, 'humedad': 52.55, 'nivel_bateria': 96.65} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 209.22 ms
+[Msg #08] {'temperatura': 4.33, 'humedad': 52.49, 'nivel_bateria': 96.6} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.14 ms
+[Msg #09] {'temperatura': 4.46, 'humedad': 52.68, 'nivel_bateria': 96.55} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.34 ms
+[Msg #10] {'temperatura': 4.43, 'humedad': 52.51, 'nivel_bateria': 96.5} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 213.83 ms
+[Msg #11] {'temperatura': 4.39, 'humedad': 52.51, 'nivel_bateria': 96.45} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 202.11 ms
+[Msg #12] {'temperatura': 4.25, 'humedad': 52.43, 'nivel_bateria': 96.4} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.97 ms
+[Msg #13] {'temperatura': 4.18, 'humedad': 52.44, 'nivel_bateria': 96.35} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 193.65 ms
+[Msg #14] {'temperatura': 4.19, 'humedad': 52.21, 'nivel_bateria': 96.3} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 212.61 ms
+[Msg #15] {'temperatura': 4.33, 'humedad': 52.09, 'nivel_bateria': 96.25} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 210.22 ms
+[Msg #16] {'temperatura': 4.4, 'humedad': 51.85, 'nivel_bateria': 96.2} | Payload: 56 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 200.31 ms
+[Msg #17] {'temperatura': 4.3, 'humedad': 51.72, 'nivel_bateria': 96.15} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 208.05 ms
+[Msg #18] {'temperatura': 4.34, 'humedad': 51.49, 'nivel_bateria': 96.1} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 206.77 ms
+[Msg #19] {'temperatura': 4.44, 'humedad': 51.73, 'nivel_bateria': 96.05} | Payload: 58 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 207.11 ms
+[Msg #20] {'temperatura': 4.51, 'humedad': 51.55, 'nivel_bateria': 96.0} | Payload: 57 B | Headers HTTP: ~569 B | HTTP 204 | Latencia: 213.65 ms
+[*] Fin. Aceptados (204) = 20/20. Log: /workspaces/labIotJuanRojas4/evidencias/https_20261006_123728.jsonl

@@ -1,0 +1,32 @@
+================================================================
+[*] Cliente AMQP 1.0 (Qpid Proton) -> Azure IoT Central
+[*] Host          : iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49.azure-devices.net:5671 (amqps / TLS)
+[*] SASL          : PLAIN  user=Vacuna-VM-Python@sas.iotc-20ba21f7-4249-41e6-bb9c-55e4a8891e49
+[*] Link target   : /devices/Vacuna-VM-Python/messages/events
+[*] Mensajes      : 20 cada 5.0s
+================================================================
+[+] Conexión AMQP abierta (TCP+TLS+SASL+Open) en 680.0 ms
+[+] Link sender adjuntado: /devices/Vacuna-VM-Python/messages/events
+[+] Crédito concedido por el hub: 50 mensajes
+[Msg #01] {'temperatura': 4.14, 'humedad': 51.94, 'nivel_bateria': 96.95} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 208.36 ms
+[Msg #02] {'temperatura': 3.99, 'humedad': 52.01, 'nivel_bateria': 96.9} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 213.87 ms
+[Msg #03] {'temperatura': 3.99, 'humedad': 52.17, 'nivel_bateria': 96.85} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 206.84 ms
+[Msg #04] {'temperatura': 4.08, 'humedad': 52.27, 'nivel_bateria': 96.8} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 206.21 ms
+[Msg #05] {'temperatura': 3.96, 'humedad': 52.02, 'nivel_bateria': 96.75} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 206.22 ms
+[Msg #06] {'temperatura': 4.1, 'humedad': 51.89, 'nivel_bateria': 96.7} | Payload: 56 B | Disposition: ACCEPTED | Latencia: 205.90 ms
+[Msg #07] {'temperatura': 4.21, 'humedad': 51.84, 'nivel_bateria': 96.65} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 206.80 ms
+[Msg #08] {'temperatura': 4.32, 'humedad': 51.55, 'nivel_bateria': 96.6} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 209.42 ms
+[Msg #09] {'temperatura': 4.29, 'humedad': 51.26, 'nivel_bateria': 96.55} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 206.56 ms
+[Msg #10] {'temperatura': 4.26, 'humedad': 51.41, 'nivel_bateria': 96.5} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 203.11 ms
+[Msg #11] {'temperatura': 4.31, 'humedad': 51.53, 'nivel_bateria': 96.45} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 208.21 ms
+[Msg #12] {'temperatura': 4.4, 'humedad': 51.26, 'nivel_bateria': 96.4} | Payload: 56 B | Disposition: ACCEPTED | Latencia: 204.31 ms
+[Msg #13] {'temperatura': 4.43, 'humedad': 51.09, 'nivel_bateria': 96.35} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 205.32 ms
+[Msg #14] {'temperatura': 4.48, 'humedad': 51.26, 'nivel_bateria': 96.3} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 205.79 ms
+[Msg #15] {'temperatura': 4.34, 'humedad': 51.55, 'nivel_bateria': 96.25} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 209.62 ms
+[Msg #16] {'temperatura': 4.48, 'humedad': 51.36, 'nivel_bateria': 96.2} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 206.00 ms
+[Msg #17] {'temperatura': 4.51, 'humedad': 51.09, 'nivel_bateria': 96.15} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 206.88 ms
+[Msg #18] {'temperatura': 4.51, 'humedad': 51.0, 'nivel_bateria': 96.1} | Payload: 56 B | Disposition: ACCEPTED | Latencia: 223.16 ms
+[Msg #19] {'temperatura': 4.65, 'humedad': 51.01, 'nivel_bateria': 96.05} | Payload: 58 B | Disposition: ACCEPTED | Latencia: 203.47 ms
+[Msg #20] {'temperatura': 4.53, 'humedad': 50.72, 'nivel_bateria': 96.0} | Payload: 57 B | Disposition: ACCEPTED | Latencia: 204.54 ms
+[*] Conexión cerrada. Enviados=20 Confirmados=20
+[*] Log: /workspaces/labIotJuanRojas4/evidencias/amqp_20261006_123542.jsonl

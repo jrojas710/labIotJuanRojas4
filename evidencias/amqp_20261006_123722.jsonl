@@ -1,0 +1,6 @@
+{"ts": "2026-10-06T12:37:23.140527+00:00", "protocol": "amqp", "event": "connection_opened", "handshake_ms": 659.73}
+{"ts": "2026-10-06T12:37:23.142320+00:00", "protocol": "amqp", "event": "credit", "credit": 50}
+{"ts": "2026-10-06T12:37:23.344143+00:00", "protocol": "amqp", "event": "accepted", "n": 1, "payload_bytes": 58, "latency_ms": 201.49, "data": {"temperatura": 4.17, "humedad": 52.16, "nivel_bateria": 96.95}}
+{"ts": "2026-10-06T12:37:25.547141+00:00", "protocol": "amqp", "event": "accepted", "n": 2, "payload_bytes": 57, "latency_ms": 201.98, "data": {"temperatura": 4.12, "humedad": 52.24, "nivel_bateria": 96.9}}
+{"ts": "2026-10-06T12:37:27.754136+00:00", "protocol": "amqp", "event": "accepted", "n": 3, "payload_bytes": 58, "latency_ms": 205.08, "data": {"temperatura": 4.25, "humedad": 51.99, "nivel_bateria": 96.85}}
+{"ts": "2026-10-06T12:37:27.862730+00:00", "protocol": "amqp", "event": "closed", "sent": 3, "confirmed": 3}
